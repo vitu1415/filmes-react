@@ -32,7 +32,27 @@
   }
   
   .meus-filmes div a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 13px;
+    font-size: 15px;
+    margin-right: 10px;
+    background-color: #116FEB;
     text-decoration: none;
-    color: #116feb;
-    margin-right: 14px;
+    color: #FFF;
+    border-radius: 5px;
   }
+
+.meus-filmes div button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 15px;
+  font-size: 15px;
+  background-color: red;
+  text-decoration: none;
+  color: #FFF;
+  border-radius: 5px;
+  cursor: pointer;
+}
